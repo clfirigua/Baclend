@@ -2,11 +2,10 @@ const express = require('express');
 
 
 // crear servidor de express
-
 const app = express();
 
-
-
+//Rutas
+app.use('/api/auth/', require('./routes/auth'))
 
 
 
